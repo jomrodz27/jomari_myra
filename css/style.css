@@ -466,7 +466,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   content: " ";
   width: 1px;
-  background-color: #d4d4d4;
+  background-color: #193e3b;
   left: 50%;
   margin-left: 0px;
 }
@@ -489,7 +489,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .timeline > li > .timeline-panel {
   width: 40%;
   float: left;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #193e3b;
   padding: 30px;
   position: relative;
   -webkit-border-radius: 4px;
@@ -514,8 +514,8 @@ h1, h2, h3, h4, h5, h6, figure {
   right: -14px;
   display: inline-block;
   border-top: 14px solid transparent;
-  border-left: 14px solid #fff;
-  border-right: 0 solid #fff;
+  border-left: 14px solid #193e3b;
+  border-right: 0 solid #193e3b;
   border-bottom: 14px solid transparent;
   content: " ";
 }
@@ -535,7 +535,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: top center;
   background-repeat: no-repeat;
   position: relative;
-  color: #fff;
+  color: #193e3b;
   width: 160px;
   height: 160px;
   line-height: 50px;
@@ -878,7 +878,7 @@ form label {
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
-  background: #004d24 !important;
+  background: #193e3b !important;
   color: #fff;
   border: none !important;
   font-size: 14px;
@@ -887,7 +887,7 @@ form label {
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #004d24 !important;
+  background: #193e3b !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -942,7 +942,7 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(0,77,36);
+  background: rgba(25,62,59);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1066,7 +1066,7 @@ form label {
 }
 .couple-half h3 {
   font-family: "Sacramento", Arial, serif;
-  color: #004d24;
+  color: #193e3b;
   font-size: 30px;
 }
 .couple-half .groom, .couple-half .bride {
@@ -1181,7 +1181,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #004d24;
+  color: #193e3b;
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
