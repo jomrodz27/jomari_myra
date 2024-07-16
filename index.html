@@ -55,10 +55,16 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+		<script>
+			function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+		</script>
 
 	</head>
 	<body onclick="play()">
-		
+	<audio id="audio" src="music/Runaway.mp3"></audio>
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
@@ -521,7 +527,7 @@
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
 	   
-    <audio id="audio" src="music/Runaway.mp3"></audio>
+ 
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -548,10 +554,7 @@
 	<script src="js/main.js"></script>
 
 	<script>
-		function play() {
-        var audio = document.getElementById("audio");
-        audio.play();
-      }
+		
     var d = new Date("2024-12-22");
     // default example
     simplyCountdown('.simply-countdown-one', {
