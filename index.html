@@ -57,7 +57,7 @@
 	<![endif]-->
 
 	</head>
-	<body>
+	<body onclick="play()">
 		
 	<div class="fh5co-loader"></div>
 	
@@ -395,14 +395,6 @@
 								</div>
 								<div class="item">
 									<div class="testimony-slide active text-center">
-										<span><h2 style="color:white !important">Can I bring a date?</h2></span>
-										<blockquote>
-											<p>Please check your invite for your +1!</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
 										<span><h2 style="color:white !important">What will the weather be like?</h2></span>
 										<blockquote>
 											<p>The weather here can be funny. During the day, the weather in our venue should be beautiful, averaging 30-35 degrees, but will get chilly and windy at afternoon to night. Please bring some warm layers for the evening, we don't want anyone freezing their bu...well you get the point. ;)</p>
@@ -528,7 +520,9 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-	
+	   
+    <audio id="audio" src="music/Runaway.mp3"></audio>
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -554,8 +548,11 @@
 	<script src="js/main.js"></script>
 
 	<script>
+		function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
     var d = new Date("2024-12-22");
-
     // default example
     simplyCountdown('.simply-countdown-one', {
         year: d.getFullYear(),
