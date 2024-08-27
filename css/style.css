@@ -1182,7 +1182,7 @@ form label {
   line-height: 1.5;
   font-weight: bold;
   color: #193e3b;
-  font-family: "Sacramento", Arial, serif;
+  font-family: 'Allegro', sans-serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
